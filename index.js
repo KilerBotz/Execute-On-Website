@@ -7,7 +7,8 @@ const port = 3000;
 const MAX_RESULTS = 3; // Maksimum jumlah hasil yang disimpan
 
 app.set('view engine', 'ejs');
-app.set('views', './views')
+app.set('views', path.join(__dirname, 'views')); // Pastikan path views sesuai
+
 app.use(express.json());
 
 let results = []; // Array untuk menyimpan hasil eksekusi perintah
