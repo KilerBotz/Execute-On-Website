@@ -8,6 +8,7 @@
   },
   "dependencies": {
   "express": "*",
+  "ejs": "*",
   "child_process": "*",
   "path": "*"
   },
