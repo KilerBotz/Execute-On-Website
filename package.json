@@ -7,7 +7,9 @@
     "start": "node index.js"
   },
   "dependencies": {
-  "express": "*"
+  "express": "*",
+  "child_process": "*",
+  "path": "*"
   },
   "author": "",
   "license": "ISC"
